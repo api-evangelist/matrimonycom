@@ -1,8 +1,28 @@
 aid: matrimonycom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/matrimonycom.png
 name: Matrimony.com
-description: 'Matrimony.com is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Matrimony.com Limited is an India-based online matchmaking and wedding
+  services company, publicly listed on the NSE and BSE and headquartered in Chennai.
+  Founded by Murugavel Janakiraman, it operates the flagship BharatMatrimony brand
+  alongside a large portfolio of regional and community matrimony sites (Tamil, Telugu,
+  Kannada, Bengali, and religion- and community-based platforms), the premium EliteMatrimony
+  service, and wedding-services properties including WeddingBazaar and Mandap.com. The
+  company serves millions of customers each month across its matchmaking and marriage
+  marketplace. It was surfaced as a portfolio company of Bessemer Venture Partners and
+  added to the API Evangelist network. As of this enrichment pass, Matrimony.com publishes
+  a corporate/investor and consumer-brand web presence but exposes no public developer
+  API, developer portal, OpenAPI, SDKs, or /.well-known discovery surface.'
 url: https://raw.githubusercontent.com/api-evangelist/matrimonycom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Matchmaking
+- Matrimony
+- Weddings
+- Marketplace
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/matrimonycom-domain-security.yml
 - type: Website
   url: https://www.matrimony.com/
+- type: About
+  url: https://www.matrimony.com/about-us
+- type: Support
+  url: https://www.matrimony.com/contact-us
+- type: Investors
+  url: https://www.matrimony.com/investors
+- type: Newsroom
+  url: https://www.matrimony.com/newsroom
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
